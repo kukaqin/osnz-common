@@ -10,7 +10,7 @@
     <groupId>nz.net.osnz.common</groupId>
     <artifactId>sms-api</artifactId>
     <packaging>jar</packaging>
-    <version>2.1</version>
+    <version>2.2-SNAPSHOT</version>
 
     <name>Open Source New Zealand : sms-api</name>
     <description>Common SMS API library</description>
@@ -61,9 +61,4 @@
         </dependency>
 
     </dependencies>
-
-
-  <scm>
-    <tag>sms-api-2.1</tag>
-  </scm>
 </project>
