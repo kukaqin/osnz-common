@@ -2,11 +2,11 @@ package nz.net.osnz.common.sms.transmission
 
 import nz.ac.auckland.common.config.ConfigKey
 
-import nz.net.osnz.sms.common.api.SmsService
-import nz.net.osnz.sms.common.thread.TransmitterThread
-import nz.net.osnz.sms.common.utils.TaskResult
-import nz.net.osnz.sms.common.utils.TransmissionResult
-import nz.net.osnz.sms.common.utils.ValidationResult
+import nz.net.osnz.common.sms.api.SmsService
+import nz.net.osnz.common.sms.thread.TransmitterThread
+import nz.net.osnz.common.sms.utils.TaskResult
+import nz.net.osnz.common.sms.utils.TransmissionResult
+import nz.net.osnz.common.sms.utils.ValidationResult
 
 import org.apache.commons.lang3.StringUtils
 import org.slf4j.Logger

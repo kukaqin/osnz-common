@@ -1,7 +1,8 @@
 package nz.net.osnz.common.sms.thread
 
-import nz.net.osnz.sms.common.utils.TaskResult
-import nz.net.osnz.sms.common.utils.TransmissionResult
+import nz.net.osnz.common.sms.utils.TaskResult
+import nz.net.osnz.common.sms.utils.TransmissionResult
+
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
