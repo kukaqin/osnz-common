@@ -8,7 +8,7 @@
 
     <groupId>nz.net.osnz.common</groupId>
     <artifactId>common-parent</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>2.2-SNAPSHOT</version>
 
     <name>Open Source New Zealand : Common parent dependency</name>
