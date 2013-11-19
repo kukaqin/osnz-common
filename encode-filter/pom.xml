@@ -34,6 +34,7 @@
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-logging</artifactId>
       <version>[2,3)</version>
+      <scope>provided</scope>
     </dependency>
 
   </dependencies>
