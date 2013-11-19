@@ -9,7 +9,7 @@
 
     <groupId>nz.net.osnz.common</groupId>
     <artifactId>common-druid</artifactId>
-    <version>2.1</version>
+    <version>2.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Open Source New Zealand : common-druid</name>
@@ -122,9 +122,4 @@
             </exclusions>
         </dependency>
     </dependencies>
-
-
-  <scm>
-    <tag>common-druid-2.1</tag>
-  </scm>
 </project>
