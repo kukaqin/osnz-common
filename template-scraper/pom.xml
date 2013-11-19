@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>nz.net.osnz.comon</groupId>
+    <groupId>nz.net.osnz.common</groupId>
     <artifactId>common-groovy-parent</artifactId>    
     <version>2.2</version>
   </parent>
