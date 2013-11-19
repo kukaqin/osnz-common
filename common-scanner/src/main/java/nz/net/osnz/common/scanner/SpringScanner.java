@@ -45,7 +45,7 @@ public abstract class SpringScanner {
 
         if (inDevMode) {
 
-            final List<URL> urls = new ArrayList<>();
+            final List<URL> urls = new ArrayList<URL>();
 
             MultiModuleConfigScanner.scan(new Notifier() {
                 @Override

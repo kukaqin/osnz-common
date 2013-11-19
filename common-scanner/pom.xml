@@ -3,9 +3,9 @@
 <modelVersion>4.0.0</modelVersion>
 
     <parent>
-    <groupId>nz.net.osnz.common</groupId>
-    <artifactId>common-java-parent</artifactId>    
-    <version>2.2</version>
+      <groupId>nz.net.osnz.common</groupId>
+      <artifactId>common-groovy-parent</artifactId>    
+      <version>2.2</version>
     </parent>
 
     <groupId>nz.net.osnz.common</groupId>
@@ -46,17 +46,21 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <dependency>
-            <groupId>nz.net.osnz.composite</groupId>
-            <artifactId>composite-groovy</artifactId>
-            <version>[2,3)</version>
-        </dependency>
         
         <dependency>
             <groupId>nz.net.osnz.composite</groupId>
             <artifactId>composite-logging</artifactId>
             <version>[2,3)</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
     </dependencies>
