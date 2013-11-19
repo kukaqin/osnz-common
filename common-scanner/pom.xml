@@ -4,8 +4,8 @@
 
     <parent>
       <groupId>nz.net.osnz.common</groupId>
-      <artifactId>common-groovy-parent</artifactId>    
-      <version>2.2</version>
+      <artifactId>common-java-parent</artifactId>    
+      <version>2.3</version>
     </parent>
 
     <groupId>nz.net.osnz.common</groupId>
