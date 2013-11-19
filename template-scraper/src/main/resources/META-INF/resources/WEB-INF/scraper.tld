@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+
+  <tlib-version>2.0</tlib-version>
+  <jsp-version>2.1</jsp-version>
+  <short-name>template</short-name>
+  <uri>http://osnz.net.nz/tld/scraper</uri>
+
+  <info>University template scraper taglib</info>
+
+  <!-- body tag -->
+  <tag>
+    <name>body</name>
+    <tag-class>nz.net.osnz.common.scraper.TemplateBodyTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+      <name>layout</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>container</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>leftBar</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>rightBar</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+
+  </tag>
+
+  <!-- header tag -->
+  <tag>
+    <name>headContributions</name>
+    <tag-class>nz.net.osnz.common.scraper.TemplateHeaderTag</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>layout</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>

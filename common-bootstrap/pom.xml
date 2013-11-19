@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.common</groupId>
+    <artifactId>common-parent</artifactId>
+    <version>2.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.common</groupId>
+  <artifactId>common-bootstrap</artifactId>
+  <version>3.4-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Open Source New Zealand : common-bootstrap</name>
+  <description>This is a library to provide bottstrap CSS framework</description>
+  <url>https://github.com/kdeng/osnz-common/common-bootstrap</url>
+
+  <scm>
+    <url>https://github.com/kdeng/osnz-common</url>
+    <connection>scm:git:git@github.com:kdeng/osnz-common.git</connection>
+    <developerConnection>scm:git:git@github.com:kdeng/osnz-common.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>

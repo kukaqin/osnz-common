@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.comon</groupId>
+    <artifactId>common-groovy-parent</artifactId>    
+    <version>2.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.common</groupId>
+  <artifactId>template-scraper</artifactId>
+  <version>2.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  
+  <name>Open Source New Zealand : common-style</name>
+  <description>A common module to generate wrapper layout</description>
+  <url>https://github.com/kdeng/osnz-common/template-scraper</url>
+
+  <properties>
+    <javax-servlet-api.version>3.0.1</javax-servlet-api.version>
+    <jsoup.version>[1.7.2]</jsoup.version>
+    <spring.version>3.2.4.RELEASE</spring.version>
+    <slf4j-api.version>1.7.5</slf4j-api.version>
+    <jsp-api.version>2.1</jsp-api.version>
+    <commons-lang.version>3.1</commons-lang.version>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-groovy</artifactId>
+      <version>[2,)</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>${spring.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>${javax-servlet-api.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>${jsp-api.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>${jsoup.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j-api.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${commons-lang.version}</version>
+    </dependency>
+
+  </dependencies>
+
+  <scm>
+    <url>https://github.com/kdeng/osnz-common</url>
+    <connection>scm:git:git@github.com:kdeng/osnz-common.git</connection>
+    <developerConnection>scm:git:git@github.com:kdeng/osnz-common.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>
