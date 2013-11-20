@@ -16,6 +16,14 @@
   <description>Common Javascript overlay</description>
   <url>https://github.com/kdeng/osnz-common/common-javascript</url>
 
+  <licenses>
+    <license>
+      <name>The GNU Lesser General Public License, Version 3.0</name>
+      <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
   <scm>
     <url>https://github.com/kdeng/osnz-common</url>
     <connection>scm:git:git@github.com:kdeng/osnz-common.git</connection>

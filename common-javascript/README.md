@@ -12,3 +12,6 @@ This module contains *non-customisable* javascript and css library code.
 * [underscore-string 2.3.0](https://raw.github.com/epeli/underscore.string/v2.3.0/dist/underscore.string.min.js)
 
 * [angular-ui-bootstrap 0.6](https://github.com/angular-ui/bootstrap/tree/gh-pages)
+
+## License
+This artifact is under LGPL V3 license. And more details are available on http://www.gnu.org/licenses/lgpl-3.0.txt.
