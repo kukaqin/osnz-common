@@ -10,7 +10,7 @@
 
     <groupId>nz.net.osnz.common</groupId>
     <artifactId>common-dao</artifactId>
-    <version>1.5</version>
+    <version>1.6-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>OSNZ common DAO library</name>
@@ -21,7 +21,7 @@
         <url>https://www.github.com/kdeng/osnz-common.git</url>
         <connection>scm:git:git@github.com:kdeng/osnz-common.git</connection>
         <developerConnection>scm:git:git@github.com:kdeng/osnz-common.git</developerConnection>
-      <tag>common-dao-1.5</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
