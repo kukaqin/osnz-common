@@ -1,4 +1,4 @@
-.icon {background: url(../img/csg-528d47295181d.png) no-repeat top left;width: 16px; height: 16px; }
+.icon {background: url(../../../img/csg-528d47295181d.png) no-repeat top left;width: 16px; height: 16px; position:relative;top:1px;display:inline-block; }
 
 .icon-accept{ background-position: 0 0; } 
 .icon-add{ background-position: 0 -66px;} 
