@@ -57,7 +57,7 @@ class EntityServiceImpl implements EntityService {
     }
 
     @Override
-    List<?> findBy(Class<?> clazz, Closure c = null) {
+    List<? extends BaseEntityBean> findBy(Class<? extends BaseEntityBean> clazz, Closure c = null) {
         Criteria criteria = currentSession.createCriteria(clazz)
         if ( c ) {
             try {

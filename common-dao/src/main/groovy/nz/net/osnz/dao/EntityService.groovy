@@ -12,7 +12,7 @@ public interface EntityService {
 
     BaseEntityBean findById(Class clazz, String id)
 
-    List<?> findBy(Class<?> clazz, Closure c)
+    List<? extends BaseEntityBean> findBy(Class<? extends BaseEntityBean> clazz, Closure c)
 
     Map safePersistSaveOrUpdate(BaseEntityBean entity)
 
