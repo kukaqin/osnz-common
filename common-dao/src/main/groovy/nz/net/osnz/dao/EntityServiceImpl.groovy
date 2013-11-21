@@ -63,9 +63,9 @@ class EntityServiceImpl implements EntityService {
             try {
                 c(criteria)
             } catch (SQLException e) {
-                LOG.error logService.logMessage("SQL Error of ${clazz.simpleName} because of ${e.message}")
+                LOG.error "SQL Error of ${clazz.simpleName} because of ${e.message}"
             } catch (Exception e) {
-                LOG.error logService.logMessage("Error in ${clazz.simpleName} because of ${e.message}")
+                LOG.error "Error in ${clazz.simpleName} because of ${e.message}"
             }            
         }
         return criteria.list()
