@@ -3,7 +3,7 @@
 This module contains *non-customisable* javascript and css library code.
 
 * [jquery 2.0.3](http://code.jquery.com/jquery-2.0.3.min.js)
-* [angular 1.2.1](http://code.angularjs.org)
+* [angular 1.2.5](http://code.angularjs.org)
 * [ext 4.2.1](http://www.sencha.com/products/extjs)
 
 * [moment 2.4.0](https://raw.github.com/timrwood/moment)
