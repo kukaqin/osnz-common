@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.common</groupId>
+    <artifactId>common-parent</artifactId>
+    <version>2.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.common</groupId>
+  <artifactId>common-extjs</artifactId>
+  <version>2.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  
+  <name>Open Source New Zealand : common-extjs</name>
+  <description>Common ExtJS Javascript</description>
+  <url>https://github.com/kdeng/osnz-common/common-extjs</url>
+
+  <licenses>
+    <license>
+      <name>The GNU Lesser General Public License, Version 3.0</name>
+      <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/kdeng/osnz-common</url>
+    <connection>scm:git:git@github.com:kdeng/osnz-common.git</connection>
+    <developerConnection>scm:git:git@github.com:kdeng/osnz-common.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  
+</project>
